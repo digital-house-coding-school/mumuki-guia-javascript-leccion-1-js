@@ -26,7 +26,7 @@ describe("Ejercicio 4", function() {
   it("Saludar", function() {
     assert(typeof ginobili.saludar === "function", "La variable ginobili debe definir un método saludar")
     
-    assert(false, ginobili);
+    assert(false, ginobili.saludar);
     
     var saludo = ginobili.saludar()
     
