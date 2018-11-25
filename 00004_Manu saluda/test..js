@@ -25,5 +25,9 @@ describe("Ejercicio 3", function() {
   
   it("Saludar", function() {
     assert(typeof ginobili.saludar === "function", "La variable ginobili debe definir un método saludar")
+    
+    saludo = ginobili.saludar()
+    
+    assert(saludo === "Hola, soy Manu", "El método saludar esta retornando el texto '" + saludo + "' en vez de decir 'Hola, soy Manu'")
   })
 })
