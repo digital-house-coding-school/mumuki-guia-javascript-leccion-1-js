@@ -1,0 +1,9 @@
+describe("Ejercicio 2", function() {
+  it("Existe Ginobili", function() {
+    assert(typeof ginobili !== 'undefined', "La variable ginobili parecería no existir")
+  })
+  
+  it("Existe Ginobili", function() {
+    assert(typeof ginobili !== 'object', "La variable ginobili parecería no ser un objeto literal")
+  })
+})
