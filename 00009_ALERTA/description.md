@@ -1,1 +1,1 @@
-sdsa
+Tu trabajo en este ejercicio es trabajar sobre `script.js` para simplemente enviar una primer alerta que diga **Bienvenido!**
