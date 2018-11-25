@@ -3,3 +3,4 @@ describe("Group description", function() {
     assert(false)
   })
 })
+
