@@ -8,6 +8,10 @@ describe("Ejercicio 7", function() {
     
     var partes = partesAuto(auto)
     
-    assert(false, Array.isArray(partes))
+    assert(Array.isArray(partes), "La funcion partesAuto debe retornar un array")
+    
+    assert(partes.length === 3, "El array de retorno debería tener 3 elementos")
+    
+    assert(partes.pop() === "Verde" && partes.pop() === "Renault" && partes.pop() == "Sandero", "El array de retorno no tiene las partes recibidas")
   })
 })
