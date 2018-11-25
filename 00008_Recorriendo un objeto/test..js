@@ -9,7 +9,5 @@ describe("Ejercicio 7", function() {
     var partes = partesAuto(auto)
     
     assert(false, typeof partes)
-    
-    assert
   })
 })
