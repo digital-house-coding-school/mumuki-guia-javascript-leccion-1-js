@@ -26,7 +26,7 @@ describe("Ejercicio 3", function() {
   it("Saludar", function() {
     assert(typeof ginobili.saludar === "function", "La variable ginobili debe definir un método saludar")
     
-    saludo = ginobili.saludar()
+    var saludo = ginobili.saludar()
     
     assert(saludo !== "undefined", "La función saludar no tiene valor de retorno")
     
