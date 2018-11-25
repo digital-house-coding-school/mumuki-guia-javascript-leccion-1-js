@@ -1,6 +1,6 @@
 /*<output#*/it("Enviar un mensaje de confirmación que diga 'Quiere nuestro newsletter?'", function() {
   
-  console.log(_last_confirm_message_)
+  console.log("Test")
   
 });/*#output>*/
 /*<tests#*//*#tests>*/
