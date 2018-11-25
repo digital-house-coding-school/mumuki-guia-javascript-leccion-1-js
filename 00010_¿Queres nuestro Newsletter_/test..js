@@ -1,5 +1,6 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("dasdasdasda", function() {
+  console.log(_last_confirm_message_)
   
   var hayUltimaAlerta = _last_confirm_message_ !== null
   
