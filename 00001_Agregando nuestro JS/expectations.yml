@@ -1,6 +1,0 @@
----
-expectations:
-- binding: body
-  inspection: DeclaresTag:script
-- binding: script
-  inspection: DeclaresAttribute:src="script.js"

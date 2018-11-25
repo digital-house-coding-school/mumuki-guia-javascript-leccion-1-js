@@ -1,1 +1,0 @@
-{"output"=>"", "tests"=>"it(\"shows an alert when the button is clicked\", function() {\n  _last_alert_message_.should.eql(\"Hi!\");\n});", "options"=>"output_ignore_scripts: true\noutput_ignore_styles: true"}
