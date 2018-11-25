@@ -27,5 +27,18 @@ describe("Ejercicio 4", function() {
     assert(typeof ginobili.saludar === "function", "La variable ginobili debe definir un método saludar")
     
     assert(ginobili.saludar.length === 1, "El método saludar ahora debería recibir un argumento")
+    
+    
+    var saludo = ginobili.saludar("Dario")
+    
+    assert(saludo !== "undefined", "La función saludar no tiene valor de retorno")
+    
+    assert(saludo === "Hola Dario soy Manu", "El método saludar esta retornando el texto '" + saludo + "' en vez de decir 'Hola Dario soy Manu'")
+    
+    var saludo = ginobili.saludar("Martin")
+    
+    assert(saludo !== "undefined", "La función saludar no tiene valor de retorno")
+    
+    assert(saludo === "Hola Martin soy Manu", "El método saludar esta retornando el texto '" + saludo + "' en vez de decir 'Hola Martin soy Manu'")
   })
 })
