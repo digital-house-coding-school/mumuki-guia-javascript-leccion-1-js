@@ -10,8 +10,8 @@ describe("Ejercicio 2", function() {
   it("Tiene atributos", function() {
     assert(typeof ginobili.nombre !== 'undefined', "La variable ginobili debe tener un atributo nombre")
     
-    assert(typeof ginobili.apellido !== 'undefined', "La variable ginobili debe tener un atributo nombre")
+    assert(typeof ginobili.apellido !== 'undefined', "La variable ginobili debe tener un atributo apellido")
     
-    assert(typeof ginobili.puntos !== 'undefined', "La variable ginobili debe tener un atributo nombre")
+    assert(typeof ginobili.puntos !== 'undefined', "La variable ginobili debe tener un atributo puntos")
   })
 })
