@@ -28,6 +28,6 @@ describe("Ejercicio 3", function() {
     
     saludo = ginobili.saludar()
     
-    assert(saludo === "Hola, soy Manu", "El método saludar esta retornando el texto '" + saludo + "' en vez de decir 'Hola, soy Manu'")
+    assert(saludo !== "undefined" && saludo === "Hola, soy Manu", "El método saludar esta retornando el texto '" + saludo + "' en vez de decir 'Hola, soy Manu'")
   })
 })
