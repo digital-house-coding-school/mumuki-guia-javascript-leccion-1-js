@@ -2,7 +2,7 @@
 /*<tests#*/it("Enviar una alerta que diga 'Bienvenido!'", function() {
   var hayUltimaAlerta = typeof _last_alert_message_ !== "null"
   
-  hayUltimaAlerta.should.eql(true, "¿Llamaste a la función alert?")
+  true.should.eql(hayUltimaAlerta, "¿Llamaste a la función alert?")
   
   
   _last_alert_message_.should.eql("Bienvenido!", "asasad");
