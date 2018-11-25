@@ -1,4 +1,0 @@
----
-expectations:
-- binding: head
-  inspection: DeclaresTag:script
