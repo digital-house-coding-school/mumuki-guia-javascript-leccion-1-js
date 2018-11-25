@@ -43,6 +43,10 @@ describe("Ejercicio 4", function() {
   })
   
   it("Puntos", function() {
+    assert(typeof ginobili.doble === "function", "La variable ginobili debe definir un método doble")
+    
+    assert(typeof ginobili.triple === "function", "La variable ginobili debe definir un método triple")
+    
     ginobili.doble();
     
     assert(ginobili.puntos == 2, "Tras su primer doble Ginobili debería tener 2 puntos...")
