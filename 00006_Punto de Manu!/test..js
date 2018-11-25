@@ -1,4 +1,4 @@
-describe("Ejercicio 4", function() {
+describe("Ejercicio 5", function() {
   it("Existe Ginobili", function() {
     assert(typeof ginobili !== 'undefined', "La variable ginobili parecería no existir")
   })
