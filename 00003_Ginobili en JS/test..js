@@ -14,4 +14,12 @@ describe("Ejercicio 2", function() {
     
     assert(typeof ginobili.puntos !== 'undefined', "La variable ginobili debe tener un atributo puntos")
   })
+  
+  it("Valores atributos", function() {
+    assert(ginobili.nombre === "Emanuel", "El nombre de Ginobili debe ser el string Emanuel")
+    
+    assert(ginobili.apellido === "Ginobili", "El apellido de Ginobili debe ser el string Ginobili")
+    
+    assert(ginobili.puntos === 0, "Los puntos de Ginobili debe ser el integer 0")
+  })
 })
