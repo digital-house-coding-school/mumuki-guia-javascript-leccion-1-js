@@ -1,6 +1,6 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("dasdasdasda", function() {
-  console.log(_last_confirm_message_)
+  console.log("testing")
   
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
