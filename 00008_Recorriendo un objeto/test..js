@@ -8,6 +8,6 @@ describe("Ejercicio 7", function() {
     
     var partes = partesAuto(auto)
     
-    assert(false, partes.isArray)
+    assert(false, Array.isArray(partes))
   })
 })
