@@ -1,6 +1,6 @@
 describe("Ejercicio 1", function() {
   it("Test", function() {
-    alert("Holiii");
+    console.log("Holiii");
     assert(false)
   })
 })
