@@ -1,4 +1,4 @@
-/*<output#*/it("Enviar un mensaje de confirmación que diga 'Quiere nuestro newsletter?'", function() {
+/*<output#*/it("dasdasdasda", function() {
   
   console.log("Test")
   
