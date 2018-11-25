@@ -1,2 +1,9 @@
-/*<file_1.html#*//*#file_1.html>*/
-/*<file_2.js#*//*#file_2.js>*/
+/*<index.html#*/<html>
+  <head>
+    
+  </head>
+  <body>
+    Hola Mundo!
+  </body>
+</html>/*#index.html>*/
+/*<script.js#*//*#script.js>*/
