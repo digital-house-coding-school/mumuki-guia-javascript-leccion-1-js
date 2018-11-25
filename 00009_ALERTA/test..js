@@ -1,6 +1,6 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Enviar una alerta que diga 'Bienvenido!'", function() {
-  var hayUltimaAlerta = typeof _last_alert_message !== "null"
+  var hayUltimaAlerta = typeof _last_alert_message_ !== "null"
   
   hayUltimaAlerta.should.eql(true, "¿Llamaste a la función alert?")
   
