@@ -2,6 +2,8 @@
 /*<tests#*/it("Enviar una alerta que diga 'Bienvenido!'", function() {
   var hayUltimaAlerta = typeof _last_alert_message_ !== null
   
+  console.log(hayUltimaAlerta)
+  
   true.should.eql(hayUltimaAlerta, "¿Llamaste a la función alert?")
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
