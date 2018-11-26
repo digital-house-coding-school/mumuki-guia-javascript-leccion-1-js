@@ -1,7 +1,6 @@
 /*<script.js#*/window.onload = function() {
   
   // Tu código va acá!
-  alert(1);
   
 }/*#script.js>*/
 /*<index.html#*/<html>

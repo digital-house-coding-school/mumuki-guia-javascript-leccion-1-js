@@ -8,4 +8,6 @@
 </html>/*#index.html>*/
 /*<script.js#*/window.addEventListiner("load", function() {
   
+  // Tu código va acá!
+  
 })/*#script.js>*/
