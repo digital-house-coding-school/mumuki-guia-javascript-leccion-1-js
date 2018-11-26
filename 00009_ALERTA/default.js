@@ -6,6 +6,6 @@
     Hola Mundo!
   </body>
 </html>/*#index.html>*/
-/*<script.js#*/window.onload = function() {
+/*<script.js#*/function() {
   
-}/*#script.js>*/
+}()/*#script.js>*/
