@@ -7,7 +7,7 @@
   </body>
 </html>/*#output>*/
 /*<tests#*/it("Cambio style color", function() {
-  true.should.be.eql(false, window.getComputedStyle(document.querySelector("body")))
+  true.should.be.eql(false, window.getComputedStyle(document.querySelector("body")).color)
   window.getComputedStyle(document.querySelector("body")).color.should.eql("pink");
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
