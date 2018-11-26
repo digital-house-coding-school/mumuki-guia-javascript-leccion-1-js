@@ -1,4 +1,6 @@
-/*<output#*//*#output>*/
+/*<output#*/<html>
+  
+</html>/*#output>*/
 /*<tests#*/it("Definir una func que devuelva 2", function() {
   _confirm_response_ = true;
   _dispatch_('load')
