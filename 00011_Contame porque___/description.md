@@ -6,6 +6,6 @@ La novedad es que **dependiendo** de la respuesta del usuario le mostraremos un 
 
 Si el usuario contestó que sí al newsletter le preguntaremos "¿Cuales son tus intereses?".
 
-En caso de que conteste que no, le preguntaremos "¿Porque no?"
+En caso de que conteste que no, le preguntaremos "Porque no?"
 
 Estos mensajes deben comunicarse mediante la función `prompt`

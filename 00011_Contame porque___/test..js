@@ -30,7 +30,7 @@ it("Caso False", function() {
   
   true.should.eql(hayUltimoPrompt, "<b><u>¿Llamaste a la función prompt luego de confirm?</u></b>")
   
-  _last_prompt_message_.should.eql("¿Porque no?")
+  _last_prompt_message_.should.eql("Porque no?")
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
