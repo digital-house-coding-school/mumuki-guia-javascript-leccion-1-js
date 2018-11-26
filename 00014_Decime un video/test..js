@@ -1,6 +1,6 @@
 /*<output#*//*#output>*/
-/*<tests#*/it("Busca PHP", function() {
-  _prompt_response_ = "PHP"
+/*<tests#*/it("Test video 1", function() {
+  _prompt_response_ = "rNSnfXl1ZjU"
   
   _dispatch_('load', document);
   
@@ -15,8 +15,8 @@
   document.querySelector("iframe").getAttribute("src").should.be.eql('https://www.youtube.com/embed/' + _prompt_response_);  
 });
 
-it("Busca JS", function() {
-  _prompt_response_ = "JS"
+it("Test Video 2", function() {
+  _prompt_response_ = "DgdMV3IczYY"
   
   _dispatch_('load', document);
   
