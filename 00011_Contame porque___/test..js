@@ -11,9 +11,7 @@
   
   var hayUltimoPrompt = _last_prompt_message_ !== null
   
-  true.should.eql(false, hayUltimoPrompt)
-  
-  true.should.eql(hayUltimoPrompt "<b><u>¿Llamaste a la función prompt luego de confirm?</u></b>")
+  true.should.eql(hayUltimoPrompt, "<b><u>¿Llamaste a la función prompt luego de confirm?</u></b>")
   
   _last_prompt_message_.should.eql("¿Cuales son tus intereses?")
 });
@@ -30,7 +28,7 @@ it("Caso False", function() {
   
   var hayUltimoPrompt = _last_prompt_message_ !== null
   
-  true.should.eql(hayUltimoPrompt "<b><u>¿Llamaste a la función prompt luego de confirm?</u></b>")
+  true.should.eql(hayUltimoPrompt, "<b><u>¿Llamaste a la función prompt luego de confirm?</u></b>")
   
   _last_prompt_message_.should.eql("¿Porque no?")
 });/*#tests>*/
