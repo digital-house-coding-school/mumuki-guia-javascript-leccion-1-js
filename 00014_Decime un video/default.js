@@ -9,6 +9,6 @@
   </head>
   <body>
     <h1>Tu búsqueda</h1>
-    <iframe></iframe>
+    <iframe width="400"></iframe>
   </body>
 </html>/*#index.html>*/
