@@ -6,5 +6,5 @@
   
   _last_alert_message_.should.eql("Bienvenido!", "<b><u>La alerta debería decir 'Bienvenido!'</u></b>")
 });/*#tests>*/
-/*<options#*/output_ignore_scripts: false
+/*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
