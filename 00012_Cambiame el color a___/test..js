@@ -1,6 +1,6 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Cambio style color", function() {
-  true.should.be.eql(false, 'HOLA' + JSON.stringify(document.querySelector("body")))
+  true.should.be.eql(false, 'HOLA' + document.querySelector("body").style)
   document.querySelector("body").style.color.should.eql("pink")
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
