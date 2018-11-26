@@ -6,7 +6,7 @@ function foo(document) {
 
 it("Cambio de color", function() {
   _dispatch_('load', document);
-  _wait_for_(foo, function () {
+  _wait_for_(() => foo(document), function () {
       document.querySelector("body").style.backgroundColor.should.eql("pink");
   })
 });/*#tests>*/
