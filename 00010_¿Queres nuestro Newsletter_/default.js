@@ -6,8 +6,6 @@
     Hola Mundo!
   </body>
 </html>/*#index.html>*/
-/*<script.js#*/(function() {
+/*<script.js#*/window.addEventListiner("load", function() {
   
-  // Tu código va acá!
-  
-})()/*#script.js>*/
+})/*#script.js>*/
