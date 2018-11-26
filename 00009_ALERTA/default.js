@@ -6,6 +6,8 @@
     Hola Mundo!
   </body>
 </html>/*#index.html>*/
-/*<script.js#*/function() {
+/*<script.js#*/(function() {
   
-}()/*#script.js>*/
+  // Tu código va acá!
+  
+})()/*#script.js>*/
