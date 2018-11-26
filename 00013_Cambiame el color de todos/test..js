@@ -13,7 +13,7 @@
   var lis = document.querySelectorAll('li')
   
   for (var i = 0; i < lis.length; i++) {
-    lis[i].style.backgroundColor.should.be.eql('blue');  
+    lis[i].style.color.should.be.eql('blue');  
   }
   
   
@@ -33,7 +33,7 @@ it("Cambio a red", function() {
   var lis = document.querySelectorAll('li')
   
   for (var i = 0; i < lis.length; i++) {
-    lis[i].style.backgroundColor.should.be.eql('blue');  
+    lis[i].style.color.should.be.eql('blue');  
   }
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
