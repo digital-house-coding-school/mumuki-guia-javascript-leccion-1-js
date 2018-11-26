@@ -1,6 +1,5 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Ejercicio 10", function() {
-  _confirm_response_ = true
   
   var hayUltimoConfirm = _last_confirm_message_ !== null
   
