@@ -1,5 +1,6 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Enviar una alerta que diga 'Bienvenido!'", function() {
+  _dispatch_('load', document);
   var hayUltimaAlerta = _last_alert_message_ !== null
   
   true.should.eql(hayUltimaAlerta, "<b><u>¿Llamaste a la función alert?</u></b>")
