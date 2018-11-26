@@ -7,8 +7,8 @@
   </body>
 </html>/*#output>*/
 /*<tests#*/it("Cambio style color", function() {
-  // true.should.be.eql(false, 'HOLA' + document.querySelector("body").getAttribute('style'))
-  window.getComputedStyle(document.querySelector("body")).color.should.eql("pink")
+  true.should.be.eql(false, window.getComputedStyle(document.querySelector("body")))
+  window.getComputedStyle(document.querySelector("body")).color.should.eql("pink");
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
