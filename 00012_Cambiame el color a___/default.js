@@ -7,7 +7,7 @@
   <head>
     <script src="script.js"></script>
   </head>
-  <body style="background-color:white">
+  <body>
     <marquee style="font-size:32px;font-family:Arial">Alto Fondo!</marquee>
   </body>
 </html>/*#index.html>*/
