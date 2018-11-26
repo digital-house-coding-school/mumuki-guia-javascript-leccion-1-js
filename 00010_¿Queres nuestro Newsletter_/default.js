@@ -6,7 +6,7 @@
     Hola Mundo!
   </body>
 </html>/*#index.html>*/
-/*<script.js#*/window.addEventListiner("load", function() {
+/*<script.js#*/window.addEventListener("load", function() {
   
   // Tu código va acá!
   
