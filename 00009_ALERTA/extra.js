@@ -1,4 +1,4 @@
 <script>
   var a = 1
-  alert("Hola!")
+  alert(a)
 </script>
