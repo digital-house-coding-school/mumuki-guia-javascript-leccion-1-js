@@ -1,6 +1,6 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("Enviar una confirmación que diga que diga 'Quiere nuestro newsletter?'", function() {
-  exec()
+  true.should.eql(false, window)
   var hayUltimaAlerta = _last_confirm_message_ !== null
   
   true.should.eql(hayUltimaAlerta, "<b><u>¿Llamaste a la función confirm?</u></b>")
