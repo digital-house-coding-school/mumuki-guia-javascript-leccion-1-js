@@ -7,8 +7,6 @@
   
   _last_confirm_message_.should.eql("Quiere nuestro newsletter?", "<b><u>La confirmación debería decir 'Quiere nuestro newsletter?'</u></b>")
   
-  _confirm_response_ = ...
-  
   true.should.eql(false, String(_confirm_response_))
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
