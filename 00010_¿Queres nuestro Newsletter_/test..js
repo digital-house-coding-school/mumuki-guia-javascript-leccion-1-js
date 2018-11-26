@@ -1,5 +1,5 @@
 /*<output#*//*#output>*/
-/*<tests#*/it("Enviar una confirkmación que diga que diga 'Quiere nuestro newsletter?'", function() {
+/*<tests#*/it("Enviar una confirmación que diga que diga 'Quiere nuestro newsletter?'", function() {
   exec()
   var hayUltimaAlerta = _last_confirm_message_ !== null
   
