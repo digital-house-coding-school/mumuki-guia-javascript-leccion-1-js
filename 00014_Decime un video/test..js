@@ -28,7 +28,7 @@ it("Test Video 2", function() {
   
   definioSrc.should.eql(true, "No definiste el atributo src del iframe")
   
-  document.querySelector("iframe").getAttribute("src").should.be.eql('https://www.youtube.com/results?search_query=' + _prompt_response_);  
+  document.querySelector("iframe").getAttribute("src").should.be.eql('https://www.youtube.com/embed/' + _prompt_response_);  
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
