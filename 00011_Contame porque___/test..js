@@ -1,7 +1,7 @@
 /*<output#*//*#output>*/
 /*<tests#*/it("calls alert() saying hello", function() {
   _confirm_response_ = true;
-  _dispatch_('load', document);
+  _dispatch_('load', window);
   _last_alert_message_.should.be.eql("hola");
 });/*#tests>*/
 /*<options#*/output_ignore_scripts: true
