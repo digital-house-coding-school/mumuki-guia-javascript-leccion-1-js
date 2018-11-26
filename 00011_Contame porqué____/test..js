@@ -12,23 +12,8 @@
   
   true.should.eql(hayUltimoAlert, "<b><u>¿Llamaste a la función alert?</u></b>")
   
-  _last_alert_message_.should.eql("Sarasa")
+  _last_alert_message_.should.eql("Caso True")
 });
-
-it("Ejercicio 10- False", function() {
-  _confirm_response_ = false
-  
-  var hayUltimoConfirm = _last_confirm_message_ !== null
-  
-  true.should.eql(hayUltimoConfirm, "<b><u>¿Llamaste a la función confirm?</u></b>")
-  
-  _last_confirm_message_.should.eql("Quiere nuestro newsletter?", "<b><u>La confirmación debería decir 'Quiere nuestro newsletter?'</u></b>")
-  
-  var hayUltimoAlert = _last_alert_message_ !== null
-  
-  true.should.eql(hayUltimoAlert, "<b><u>¿Llamaste a la función alert?</u></b>")
-  
-  _last_alert_message_.should.eql("Sarasa2")
-});/*#tests>*/
+/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
