@@ -13,7 +13,7 @@
   
   true.should.eql(hayUltimoPrompt, "<b><u>¿Llamaste a la función prompt luego de confirm?</u></b>")
   
-  _last_prompt_message_.should.eql("¿Cuales son tus intereses?")
+  _last_prompt_message_.should.eql("Cuales son tus intereses?")
 });
 
 it("Caso False", function() {
