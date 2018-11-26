@@ -1,8 +1,9 @@
-/*<script.js#*/(function() {
+/*<script.js#*/window.onload = function() {
   
   // Tu código va acá!
+  alert(1);
   
-})()/*#script.js>*/
+}/*#script.js>*/
 /*<index.html#*/<html>
   <head>
     <script src="script.js"></script>
