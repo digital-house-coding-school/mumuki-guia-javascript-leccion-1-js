@@ -8,6 +8,6 @@
     <script src="script.js"></script>
   </head>
   <body style="background-color:white">
-    <marquee style="font-size:32px">Hola Mundo!</marquee>
+    <marquee style="font-size:32px">Alto Fondo!</marquee>
   </body>
 </html>/*#index.html>*/
